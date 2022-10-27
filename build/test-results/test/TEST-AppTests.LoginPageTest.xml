@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AppTests.LoginPageTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-24T21:12:51" hostname="PL-AU-PF3Z6PH4" time="24.257">
+  <properties/>
+  <testcase name="appLoginTest()" classname="AppTests.LoginPageTest" time="24.257"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[1666645977400	geckodriver	INFO	Listening on 127.0.0.1:49305
+1666645977652	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52904" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://localhost:52904/" "-no-remote" "-profile" "C:\\Users\\areddy\\AppData\\Local\\Temp\\rust_mozprofileXrrP3b"
+1666645979407	Marionette	INFO	Marionette enabled
+1666645979411	Marionette	INFO	Listening on port 62063
+Read port: 62063
+WebDriver BiDi listening on ws://127.0.0.1:52904
+1666645979543	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\areddy\\AppData\\Local\\Temp\\rust_mozprofileXrrP3b\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52904/devtools/browser/850c9028-cc0d-4b76-8a47-53bdc2a4daf8
+Oct 25, 2022 8:13:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://automationpractice.com."
+1666645995187	Marionette	INFO	Stopped listening on port 62063
+]]></system-err>
+</testsuite>
